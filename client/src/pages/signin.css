@@ -1,0 +1,29 @@
+.signin {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/poster-collage.jpg");
+
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin .cockpit {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.signin .policy-links {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.signin .policy-links > li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.signin .policy-links a:hover {
+  color: #c91e1e;
+}

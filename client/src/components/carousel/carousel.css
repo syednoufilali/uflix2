@@ -1,0 +1,105 @@
+.carousel {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  margin-bottom: 20px;
+  position: relative;
+  font-size: 16px;
+}
+
+.carousel video {
+  position: absolute;
+  object-fit: cover;
+  width: 110%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.carousel-controls {
+  width: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 20%;
+  left: 5%;
+  z-index: 1;
+}
+.carousel-controls > * {
+  margin: 20px;
+}
+.carousel-controls .movie-logo {
+  width: 400px;
+  margin-bottom: 20px;
+}
+.carousel-controls .text .movie-description {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.carousel-controls .carousel-controls-btn {
+  display: flex;
+}
+
+.carousel-controls .carousel-controls-btn > div {
+  display: flex;
+  align-items: center;
+  background: rgba(51, 51, 51, 0.4);
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.carousel-controls > .carousel-controls-btn > a {
+  font-weight: 700;
+}
+
+.carousel-controls ion-icon {
+  margin-right: 10px;
+}
+
+.carousel-controls .carousel-controls-btn > div:hover {
+  background-color: #e6e6e6;
+  box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);
+  color: #000;
+}
+
+.carousel-controls .carousel-controls-btn > div:hover a {
+  color: #000;
+}
+
+.carousel-controls .carousel-controls-btn > div:hover ion-icon {
+  color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel {
+    height: 50vh;
+  }
+
+  .carousel-controls {
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-controls .movie-logo {
+    width: 200px;
+  }
+  .carousel video {
+    width: 120%;
+    height: 120%;
+    top: 0;
+    left: 0;
+  }
+  .carousel-controls .text .movie-description {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .carousel-controls .carousel-controls-btn > div {
+    font-size: 1em;
+    padding: 10px 10px;
+  }
+}

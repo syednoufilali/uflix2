@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  max-width: 100vw;
+  min-height: 1000px;
+}

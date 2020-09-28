@@ -1,0 +1,24 @@
+.account ion-icon {
+  font-size: 80px;
+  color: #fff;
+}
+
+.account {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 130px;
+}
+
+.account .switch-container {
+  width: 100%;
+  color: #708090;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+  text-align: center;
+}

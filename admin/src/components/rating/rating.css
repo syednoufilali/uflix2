@@ -1,0 +1,11 @@
+.rating{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.rating > ion-icon[name="star-outline"],
+.rating > ion-icon[name="star"]{
+    font-size: 40px;
+    color: rgb(219, 219, 45);
+}

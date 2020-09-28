@@ -1,0 +1,18 @@
+.card {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 5px 10px;
+}
+
+.card > p {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.card .button {
+  margin-bottom: 5px;
+}

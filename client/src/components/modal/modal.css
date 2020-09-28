@@ -1,0 +1,145 @@
+.modal {
+  position: relative;
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  background: transparent;
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: #999;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+
+/* Modal Background ========================================*/
+.modal .cover {
+  position: absolute;
+  top: 0%;
+  left: 35%;
+  width: 65%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Modal Black Backdrop ========================================*/
+.modal .backdrop {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: linear-gradient(to right, rgb(0, 0, 0, 1) 35%, transparent 65%);
+  width: 100%;
+  height: 100%;
+}
+
+/* Modal Content ========================================*/
+.modal .content {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  width: 40%;
+  height: 100%;
+  overflow-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal .content .movie-logo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+.modal .content .secondary {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #999;
+}
+
+.modal .content .list {
+  font-size: 1rem;
+  font-weight: 900;
+  color: #999;
+}
+
+.modal .content .list * {
+  color: #999;
+}
+/* Modal Content Controls ========================================*/
+.modal .modal-controls-btn {
+  display: flex;
+  margin: 10px 0px;
+}
+.modal .modal-controls-btn > div {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid #999;
+  color: #999;
+  font-size: 1.2em;
+  padding: 10px 15px;
+  margin: 0px 10px 0px 0px;
+}
+
+.modal .modal-controls-btn > div:hover {
+  background: rgba(153, 153, 153, 0.6);
+  box-shadow: 0 0.6vw 1vw -0.4vw rgba(0, 0, 0, 0.35);
+}
+
+.modal ion-icon {
+  margin-right: 5px;
+}
+.modal ion-icon[name="close"] {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 2em;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal ion-icon[name="close"]:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.modal-rating {
+  width: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: min-content;
+    background: #000;
+    padding-bottom: 20px;
+  }
+  .modal .backdrop {
+    display: none;
+  }
+  .modal .cover {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 0;
+    left: 0;
+  }
+  .modal .content {
+    position: relative;
+    width: 90%;
+    height: auto;
+  }
+  .modal .content .movie-logo {
+    display: none;
+  }
+
+  .modal .content .secondary {
+    font-size: 1rem;
+  }
+  .modal .content .list {
+    font-size: 0.8rem;
+  }
+}

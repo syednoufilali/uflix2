@@ -1,0 +1,14 @@
+.card > p {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+ion-icon {
+  color: "#ffffff";
+  font-size: 150px;
+  text-align: center;
+  align-self: center;
+}
+.card .button {
+  margin-bottom: 5px;
+}

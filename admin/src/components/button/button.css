@@ -1,0 +1,9 @@
+.button{
+    padding: 8px 3px;
+    font-size: inherit;
+    background-color: #c91e1e;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+

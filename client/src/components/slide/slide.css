@@ -1,0 +1,27 @@
+.slide-container {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto 40px auto;
+}
+
+.slide-container > p {
+  min-width: 80%;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.cards {
+  padding: 0px 1rem;
+  min-width: 100%;
+  min-height: 200px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.items-control {
+  background: #141414;
+  color: #aaa;
+  font-size: 2.5rem;
+}

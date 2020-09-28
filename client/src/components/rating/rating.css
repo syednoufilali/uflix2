@@ -1,0 +1,8 @@
+.rating {
+  display: flex;
+  justify-content: space-evenly;
+}
+.rating svg {
+  width: 50px;
+  fill: rgb(219, 219, 45);
+}

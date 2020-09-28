@@ -1,0 +1,33 @@
+.cockpit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: rgba(51, 51, 51, 0.4);
+  border-radius: 15px;
+  width: 30vw;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 720px) {
+  .cockpit {
+    width: 80%;
+  }
+}
+
+.cockpit img {
+  width: 100px;
+}
+
+.cockpit form {
+  width: 100%;
+}
+
+.cockpit > * {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.cockpit form > * {
+  margin-bottom: 10px;
+}

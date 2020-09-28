@@ -1,0 +1,20 @@
+.slide{
+    margin-bottom: 60px;
+}
+
+.slide > p {
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    transform: skewY(-4deg);
+    padding: 10px;
+    background: #C91E1E;
+    display: inline-block;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}

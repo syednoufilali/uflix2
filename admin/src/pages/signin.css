@@ -1,0 +1,23 @@
+.signin {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/poster-collage.jpg");
+
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin .cockpit {
+  background: rgba(0, 0, 0, 0.9);
+}
+.signin .container {
+  display: flex;
+  justify-content: center;
+}
+
+.signin .container > * {
+  margin: 0px 20px;
+}

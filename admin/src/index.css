@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+textarea {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 6px;
+  padding: 6px 6px;
+  width: 100%;
+  resize: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: all 5000s ease-in-out 0s;
+}
+
+input {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: inherit;
+  padding: 6px 6px;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+
+body {
+  background: #000000;
+}
+
+select {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: inherit;
+  padding: 6px 6px;
+  width: 100%;
+}
+
+option {
+  color: #fff;
+  background-color: #c91e1e;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: inherit;
+  padding: 6px 6px;
+  width: 100%;
+}
+
+p {
+  overflow-wrap: break-word;
+}
+
+*::-webkit-scrollbar {
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  width: 1em;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #494949;
+  outline: 1px solid slategrey;
+}

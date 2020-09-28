@@ -1,0 +1,47 @@
+.grid .header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background: #141414;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 998;
+}
+
+.grid .title {
+  font-size: 24px;
+}
+.grid .catagories {
+  margin-left: 50px;
+}
+
+select[name="filter"] {
+  color: #fff;
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  margin: 0 auto 30px auto;
+}
+
+.grid-cards {
+  padding: 0px 10px;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-cards {
+    justify-content: center;
+  }
+}

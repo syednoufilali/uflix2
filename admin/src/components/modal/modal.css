@@ -1,0 +1,34 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999999999999;
+  height: 100vh;
+  width: 100vw;
+  background: #000;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.modal-control {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  cursor: pointer;
+}
+.modal li,
+.modal ul,
+.modal label {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  list-style: none;
+  text-align: left;
+}
+.modal label {
+  padding: 5px;
+}
+.modal label.active {
+  background: #333;
+}

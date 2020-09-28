@@ -1,0 +1,45 @@
+.cockpit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgba(51, 51, 51, 0.4);
+  border-radius: 15px;
+  width: 50vw;
+  font-size: 16px;
+}
+
+.cockpit img {
+  width: 30%;
+}
+.cockpit form {
+  width: 100%;
+}
+
+.cockpit > * {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cockpit form > * {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .cockpit {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .cockpit {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .cockpit {
+    width: 40%;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,24 @@
+.app {
+  display: flex;
+  background-color: #141414;
+}
+
+.screen {
+  width: 75vw;
+  height: 100vh;
+  padding: 30px;
+  overflow-y: scroll;
+}
+
+#nprogress .bar {
+  background: #e4fa1a !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #e4fa1a, 0 0 5px #e4fa1a !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #e4fa1a !important;
+  border-left-color: #e4fa1a !important;
+}
