@@ -1,8 +1,8 @@
 import axios from "axios";
 import { loadProgressBar } from "axios-progress-bar";
 
-const BASE_URL = "http://localhost:80/";
-//const BASE_URL = "https://uflix.world/";
+// const BASE_URL = "http://localhost:80/";
+const BASE_URL = "https://uflix.world/";
 
 const api = axios.create({
   baseURL: BASE_URL,

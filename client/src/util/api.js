@@ -1,7 +1,7 @@
 import axios from "axios";
 
- const url = "http://localhost:80";
-// const url = "https://uflix.world";
+//  const url = "http://localhost:80";
+const url = "https://uflix.world";
 const api = axios.create({
   baseURL: url,
 });
